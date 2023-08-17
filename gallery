@@ -1,0 +1,173 @@
+<html><head><title>The Ã˜peration PÃ¸stpÃ¸ned</title>
+<link rel="stylesheet" href="css/styles.css">
+ 
+<style>
+ 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+display: none;
+}
+ 
+/* Hide scrollbar for IE and Edge */
+.example {
+-ms-overflow-style: none;
+}
+ 
+div.gallery {
+border: 1px solid #ccc; /*IDEA-make border same color as bg*/
+}
+ 
+div.gallery:hover {
+border: 1px solid #777;
+}
+ 
+div.gallery img {
+width: 100%;
+height: auto;
+}
+ 
+div.desc {
+padding: 15px;
+text-align: center;
+}
+ 
+* {
+box-sizing: border-box;
+}
+ 
+.responsive {
+padding: 0 6px;
+float: left;
+width: 24.99999%;
+}
+ 
+@media only screen and (max-width: 850px) {
+.responsive {
+width: 49.99999%;
+margin: 6px 0;
+}
+}
+ 
+@media only screen and (max-width: 700px) {
+.responsive {
+width: 100%;
+}
+ 
+}
+ 
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
+ 
+</style>
+ 
+</head>
+<body class="example">
+<header>
+ 
+<nav>
+<a href="#" id="menu-icon"></a>
+ 
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="sport.html">Sports</a></li>
+<li><a href="Snake.html">Snake</a></li>		
+<li><a href="gallery.html">Gallery</a></li>								
+<li><a href="pics.html">My Pics</a></li>
+</ul>
+</nav>
+</header>
+<br /><br />
+ 
+<br /><br />
+<div class="responsive">
+<div class="gallery">
+<img src="images/Gallery/bolas.png" alt="Nicol Bolas" width="600" height="400">
+</a>
+<div class="desc">Dragon who tried taking over the multiverse, failed because he made 3 mistakes. Now in eternal jail with his brother as his Jailer.</div>
+</div>
+</div>
+ 
+ 
+<div class="responsive">
+<div class="gallery">
+<img src="images/Gallery/emira.png" alt="Emerakul" width="600" height="400">
+</a>
+<div class="desc">Last of the living eldrazi titans, the most powerful of all. She almost destroyed half a plane but wkaning a persona inside her (Emira), she "trapped" herself in the moon.</div>
+</div>
+</div>
+ 
+<div class="responsive">
+<div class="gallery">
+<img src="images/Gallery/emira2.png" alt="The promised end" width="600" height="400">
+</a>
+<div class="desc">Emerakul on Inistrad. Emira played a game of chess with Jace Beleren while Emerakul destroyed the plane.</div>
+</div>
+</div>
+ 
+<div class="responsive">
+<div class="gallery">
+<img src="images/Gallery/fossa.png" alt="Fossa" width="600" height="400">
+</a>
+<div class="desc">My favorite animal, the Fossa. Lives only in Madigascar, it spends it's time catching lemurs.</div>
+</div>
+</div>
+<br /><br /><br /><br />
+<div class="responsive">
+<div class="gallery">
+<img src="images/Gallery/liverpool.png" alt="Liverpool" width="600" height="400">
+</a>
+<div class="desc">My favorite British soccer team. They have a great german coach, Jurgen Klopp.</div>
+</div>
+</div>
+ 
+<div class="responsive">
+<div class="gallery">
+<img src="images/Gallery/mine.png" alt="Minecraft" width="600" height="400">
+</a>
+<div class="desc">One of the best PC games. Ever.</div>
+</div>
+</div>
+ 
+<div class="responsive">
+<div class="gallery">
+<img src="images/Gallery/pixel.png" alt="Google_Pixel" width="600" height="400">
+</a>
+<div class="desc">One of my favorite phones, ever. Would recomend.</div>
+</div>
+</div>
+ 
+<div class="responsive">
+<div class="gallery">
+<img src="images/Gallery/miracle.png" alt="Miracle_Workers" width="600" height="400">
+</a>
+<div class="desc">My favorite TV show curently. Miracle Workers Dark Ages.</div>
+</div>
+</div>
+ 
+<div class="responsive">
+<div class="gallery">
+<img src="images/Gallery/switch.png" alt="Nintendo_Switch" width="600" height="400">
+</a>
+<div class="desc">The best console in the buisness. Hands Down. Now take them back up because the switch is portable!</div>
+</div>
+</div>
+ 
+<div class="responsive">
+<div class="gallery">
+<img src="images/Gallery/botw.png" alt="BOTW" width="600" height="400">
+</a>
+<div class="desc">Game of the Year. Best game I have ever played. Botw 2 is coming soon. You know I will no life it.</div>
+</div>
+</div>
+ 
+ 
+<div class="clearfix"></div>
+ 
+</div>
+ 
+ 
+</body></html>
