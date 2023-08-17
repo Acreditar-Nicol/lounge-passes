@@ -1,0 +1,108 @@
+ 
+* {
+	box-sizing: border-box;
+}
+ 
+/*Sets up area on page for columns*/
+.col-container {
+  display: table;
+  width: 100%;
+ /*word-wrap: break-word;*/
+ 
+}
+/*First column controls*/
+.col_1 {
+  display: table-cell;
+  padding: 16px;
+  width:50%;
+  /*text-align: justify;*/
+  /*text-justify: inter-word;*/
+}
+ 
+/*Second column controls*/
+.col_2 {
+  display: table-cell;
+  padding: 16px;
+  width:50%;
+}
+ 
+h2{
+color:blue;;
+font-family:tahoma;
+font-style:italic;
+font-size:35px;
+padding-bottom:10px; /*space under h2*/
+text-align:center;
+}
+ 
+ 
+ 
+/*Image control to be on left side*/
+.img_left{
+width:55%;
+border:1px solid red;
+float:left;
+margin:7px;
+}
+/*Image control to be on right side*/
+.img_right{
+width:55%;
+border:1px solid red;
+float:right;
+margin:7px;
+}
+ 
+.p1 {
+font-family:arial;
+  /*text-align: justify;*/
+  /*text-justify: inter-word;*/
+}
+.p1::first-letter {
+font-size:55px;
+font-family:monotype corsiva;
+font-style:italic;
+color:blue;
+/*background:aqua;*/
+/*border-radius:35px;*/
+}
+ 
+.p1::first-line {
+font-size:30px;
+ 
+}
+ 
+/*If the browser window is smaller than 600px-for mobile*/
+@media only screen and (max-width: 600px) {
+ 
+  /*change when in mobile*/
+  .col_1 {
+    display: block;
+    width: 100%;
+  }
+    /*change when in mobile*/
+    .col_2 {
+    display: block;
+    width: 100%;
+  }
+ 
+    /*change when in mobile*/
+  .img_left{
+width:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+border:1px solid red;
+ 
+}
+ 
+  /*change when in mobile*/
+.img_right{
+width:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+border:1px solid red;
+ 
+}
+ 
+}/*closes media/movile view*/
